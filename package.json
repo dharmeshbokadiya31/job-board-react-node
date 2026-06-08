@@ -1,0 +1,14 @@
+{
+  "name": "job-board-react-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mini Job Board — Next.js frontend + Express backend",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build:backend": "npm run build --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "start:backend": "npm run start --prefix backend"
+  }
+}
